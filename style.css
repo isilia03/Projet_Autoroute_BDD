@@ -1,0 +1,122 @@
+#bloc_page
+{
+    width: 1100px;
+    margin: auto;
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+body
+{
+	background-color: silver;
+}
+
+#gps
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+header
+{
+    background-image: url('image/test1.jpg');
+    background-size: 700px;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: flex-end;
+    display: flex;
+    box-shadow: 6px 6px 0px black;
+    padding:20px 20px 20px 20px;
+}
+
+header h1
+{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    color: white;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 20px;
+}
+
+nav a
+{
+    color: white;
+	font-size: 1.30em;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: gray;
+    border-bottom: 3px solid gray;
+}
+
+footer
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+}
+
+#délimitation
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 55px;
+}
+
+#délimitation2
+{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+form
+{
+    margin-left: 230px;
+    margin-top: 20px;
+    margin-right: 230px;
+    margin-bottom: 20px;
+}
+
+
+form label
+{
+    color: black;
+    font-size: 1.1em;
+}
+
+#submit_ajout
+{
+    margin-left: 500px;
+    margin-top: 20px;
+    padding:6px 6px 6px 6px;
+    border-color: black;
+    box-shadow: 4px 4px 0px black;
+    font-size: 1.0em;
+    border-radius: 20px 5px 20px 5px;
+}
+
+fieldset
+{
+    background-color: white;
+    padding:10px 20px 20px 20px;
+    box-shadow: 6px 6px 0px black;
+    border-radius: 20px 5px 20px 5px;
+}

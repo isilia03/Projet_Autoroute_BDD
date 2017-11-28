@@ -1,0 +1,5 @@
+git bash here
+git pull origin master
+git add*
+git commit -m "ton message de commit"
+git push origin master
