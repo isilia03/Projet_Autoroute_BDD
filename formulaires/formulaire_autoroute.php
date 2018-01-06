@@ -70,9 +70,3 @@ if (isset($_POST['submit_ajout']))
 </fieldset>
 	<input type="submit" value="Ajouter" name="submit_ajout" id="submit_ajout" />
 </form>
-
-<?php if (isset($erreur)) {
-						echo ($erreur);
-					} ?>
-
-					<?php include("test_bas.php"); ?>
